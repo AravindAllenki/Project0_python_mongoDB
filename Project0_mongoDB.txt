@@ -2,7 +2,14 @@ To read a JOSN file in mongoDB:
 
 C:\Users\aravi>"C:\Program Files\MongoDB\mongodb-database-tools-windows-x86_64-100.3.1\bin\mongoimport" --db dbrestaurants --collection restaurants --type json --file restaurants.json
 
+Command used to connect with mongoDB shell:
+"C:\Program Files\MongoDB\mongodb-database-tools-windows-x86_64-100.3.1\bin\mongo"
+
+Command used to start the mongoDB daemon:
+"C:\Program Files\MongoDB\mongodb-database-tools-windows-x86_64-100.3.1\bin\mongod" --dbpath = "C;\data\db"
+
 Structure of 'restaurants' collection in JSON file:
+
 {
   "address": {
      "building": "1007",
